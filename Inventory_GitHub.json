@@ -11,60 +11,15 @@
       {
         "size": "M",
         "available": true
-      }
-    ],
-    "colors": [
-      "Black"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250601",
-    "title": "[KA-250601] Co-ord Set - 2-Piece - Straight Cut - Cotton",
-    "price": 100.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250601.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "L",
         "available": true
-      }
-    ],
-    "colors": [
-      "Black"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250601",
-    "title": "[KA-250601] Co-ord Set - 2-Piece - Straight Cut - Cotton",
-    "price": 100.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250601.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XL",
         "available": true
-      }
-    ],
-    "colors": [
-      "Black"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250601",
-    "title": "[KA-250601] Co-ord Set - 2-Piece - Straight Cut - Cotton",
-    "price": 100.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250601.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XXL",
         "available": false
@@ -87,79 +42,19 @@
       {
         "size": "S",
         "available": true
-      }
-    ],
-    "colors": [
-      "White"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250602",
-    "title": "[KA-250602] - Co-ord Set - 2-Piece - A-Line - Khadi",
-    "price": 95.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250602.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "M",
         "available": true
-      }
-    ],
-    "colors": [
-      "White"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250602",
-    "title": "[KA-250602] - Co-ord Set - 2-Piece - A-Line - Khadi",
-    "price": 95.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250602.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "L",
         "available": true
-      }
-    ],
-    "colors": [
-      "White"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250602",
-    "title": "[KA-250602] - Co-ord Set - 2-Piece - A-Line - Khadi",
-    "price": 95.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250602.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XL",
         "available": true
-      }
-    ],
-    "colors": [
-      "White"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250602",
-    "title": "[KA-250602] - Co-ord Set - 2-Piece - A-Line - Khadi",
-    "price": 95.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250602.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XXL",
         "available": false
@@ -182,79 +77,19 @@
       {
         "size": "M",
         "available": true
-      }
-    ],
-    "colors": [
-      "Blue"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250603",
-    "title": "[KA-250603] - Co-ord Set - 2-Piece - A-Line - Cotton",
-    "price": 95.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250603.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "L",
         "available": true
-      }
-    ],
-    "colors": [
-      "Blue"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250603",
-    "title": "[KA-250603] - Co-ord Set - 2-Piece - A-Line - Cotton",
-    "price": 95.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250603.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XL",
         "available": true
-      }
-    ],
-    "colors": [
-      "Blue"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250603",
-    "title": "[KA-250603] - Co-ord Set - 2-Piece - A-Line - Cotton",
-    "price": 95.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250603.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XXL",
         "available": false
-      }
-    ],
-    "colors": [
-      "Blue"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250603",
-    "title": "[KA-250603] - Co-ord Set - 2-Piece - A-Line - Cotton",
-    "price": 95.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250603.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XXXL",
         "available": true
@@ -277,60 +112,15 @@
       {
         "size": "M",
         "available": true
-      }
-    ],
-    "colors": [
-      "Red"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250604",
-    "title": "[KA-250604] - Co-ord Set - 2-Piece - A-Line - Cotton",
-    "price": 90.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250604.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "L",
         "available": false
-      }
-    ],
-    "colors": [
-      "Red"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250604",
-    "title": "[KA-250604] - Co-ord Set - 2-Piece - A-Line - Cotton",
-    "price": 90.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250604.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XL",
         "available": true
-      }
-    ],
-    "colors": [
-      "Red"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250604",
-    "title": "[KA-250604] - Co-ord Set - 2-Piece - A-Line - Cotton",
-    "price": 90.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250604.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XXL",
         "available": false
@@ -353,79 +143,19 @@
       {
         "size": "S",
         "available": true
-      }
-    ],
-    "colors": [
-      "Black"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250605",
-    "title": "[KA-250605] - Co-ord Set - 2-Piece - Straight Cut",
-    "price": 95.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250605.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "M",
         "available": true
-      }
-    ],
-    "colors": [
-      "Black"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250605",
-    "title": "[KA-250605] - Co-ord Set - 2-Piece - Straight Cut",
-    "price": 95.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250605.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "L",
         "available": true
-      }
-    ],
-    "colors": [
-      "Black"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250605",
-    "title": "[KA-250605] - Co-ord Set - 2-Piece - Straight Cut",
-    "price": 95.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250605.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XL",
         "available": true
-      }
-    ],
-    "colors": [
-      "Black"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250605",
-    "title": "[KA-250605] - Co-ord Set - 2-Piece - Straight Cut",
-    "price": 95.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250605.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XXL",
         "available": true
@@ -448,79 +178,19 @@
       {
         "size": "M",
         "available": true
-      }
-    ],
-    "colors": [
-      "Green"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250606",
-    "title": "[KA-250606] - Co-ord Set - 2-Piece - Straight Cut - Cotton",
-    "price": 85.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250606.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "L",
         "available": true
-      }
-    ],
-    "colors": [
-      "Green"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250606",
-    "title": "[KA-250606] - Co-ord Set - 2-Piece - Straight Cut - Cotton",
-    "price": 85.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250606.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XL",
         "available": true
-      }
-    ],
-    "colors": [
-      "Green"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250606",
-    "title": "[KA-250606] - Co-ord Set - 2-Piece - Straight Cut - Cotton",
-    "price": 85.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250606.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XXL",
         "available": true
-      }
-    ],
-    "colors": [
-      "Green"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250606",
-    "title": "[KA-250606] - Co-ord Set - 2-Piece - Straight Cut - Cotton",
-    "price": 85.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250606.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XXXL",
         "available": true
@@ -543,79 +213,19 @@
       {
         "size": "S",
         "available": true
-      }
-    ],
-    "colors": [
-      "White"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250607",
-    "title": "[KA-250607] - Co-ord Set - 2-Piece - Straight Cut - Khadi",
-    "price": 90.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250607.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "M",
         "available": true
-      }
-    ],
-    "colors": [
-      "White"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250607",
-    "title": "[KA-250607] - Co-ord Set - 2-Piece - Straight Cut - Khadi",
-    "price": 90.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250607.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "L",
         "available": true
-      }
-    ],
-    "colors": [
-      "White"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250607",
-    "title": "[KA-250607] - Co-ord Set - 2-Piece - Straight Cut - Khadi",
-    "price": 90.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250607.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XL",
         "available": true
-      }
-    ],
-    "colors": [
-      "White"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250607",
-    "title": "[KA-250607] - Co-ord Set - 2-Piece - Straight Cut - Khadi",
-    "price": 90.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250607.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XXL",
         "available": true
@@ -638,79 +248,19 @@
       {
         "size": "M",
         "available": true
-      }
-    ],
-    "colors": [
-      "Purple"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250608",
-    "title": "[KA-250608] - Co-ord Set - 2-Piece - A-Line - Cotton",
-    "price": 90.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250608.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "L",
         "available": true
-      }
-    ],
-    "colors": [
-      "Purple"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250608",
-    "title": "[KA-250608] - Co-ord Set - 2-Piece - A-Line - Cotton",
-    "price": 90.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250608.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XL",
         "available": true
-      }
-    ],
-    "colors": [
-      "Purple"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250608",
-    "title": "[KA-250608] - Co-ord Set - 2-Piece - A-Line - Cotton",
-    "price": 90.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250608.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XXL",
         "available": true
-      }
-    ],
-    "colors": [
-      "Purple"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250608",
-    "title": "[KA-250608] - Co-ord Set - 2-Piece - A-Line - Cotton",
-    "price": 90.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250608.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XXXL",
         "available": true
@@ -733,60 +283,15 @@
       {
         "size": "M",
         "available": true
-      }
-    ],
-    "colors": [
-      "White"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250609",
-    "title": "[KA-250609] - Co-ord Set - 2-Piece - Straight Cut - Cotton",
-    "price": 95.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250609.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "L",
         "available": true
-      }
-    ],
-    "colors": [
-      "White"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250609",
-    "title": "[KA-250609] - Co-ord Set - 2-Piece - Straight Cut - Cotton",
-    "price": 95.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250609.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XL",
         "available": true
-      }
-    ],
-    "colors": [
-      "White"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250609",
-    "title": "[KA-250609] - Co-ord Set - 2-Piece - Straight Cut - Cotton",
-    "price": 95.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250609.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XXL",
         "available": true
@@ -809,79 +314,19 @@
       {
         "size": "M",
         "available": false
-      }
-    ],
-    "colors": [
-      "White"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250610",
-    "title": "[KA-250610] - Co-ord Set - 2-Piece - Straight Cut - Khadi",
-    "price": 90.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250610.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "L",
         "available": false
-      }
-    ],
-    "colors": [
-      "White"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250610",
-    "title": "[KA-250610] - Co-ord Set - 2-Piece - Straight Cut - Khadi",
-    "price": 90.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250610.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XL",
         "available": true
-      }
-    ],
-    "colors": [
-      "White"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250610",
-    "title": "[KA-250610] - Co-ord Set - 2-Piece - Straight Cut - Khadi",
-    "price": 90.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250610.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XXL",
         "available": true
-      }
-    ],
-    "colors": [
-      "White"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250610",
-    "title": "[KA-250610] - Co-ord Set - 2-Piece - Straight Cut - Khadi",
-    "price": 90.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250610.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XXXL",
         "available": false
@@ -904,60 +349,15 @@
       {
         "size": "M",
         "available": true
-      }
-    ],
-    "colors": [
-      "Yellow"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250611",
-    "title": "[KA-250611] - Co-ord Set - 2-Piece - Straight Cut - Cotton",
-    "price": 85.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250611.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "L",
         "available": true
-      }
-    ],
-    "colors": [
-      "Yellow"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250611",
-    "title": "[KA-250611] - Co-ord Set - 2-Piece - Straight Cut - Cotton",
-    "price": 85.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250611.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XL",
         "available": true
-      }
-    ],
-    "colors": [
-      "Yellow"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250611",
-    "title": "[KA-250611] - Co-ord Set - 2-Piece - Straight Cut - Cotton",
-    "price": 85.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250611.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XXL",
         "available": true
@@ -980,79 +380,19 @@
       {
         "size": "S",
         "available": true
-      }
-    ],
-    "colors": [
-      "Black"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250612",
-    "title": "[KA-250612] - Co-ord Set - 2-Piece - A-Line - Cotton",
-    "price": 85.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250612.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "M",
         "available": true
-      }
-    ],
-    "colors": [
-      "Black"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250612",
-    "title": "[KA-250612] - Co-ord Set - 2-Piece - A-Line - Cotton",
-    "price": 85.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250612.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "L",
         "available": true
-      }
-    ],
-    "colors": [
-      "Black"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250612",
-    "title": "[KA-250612] - Co-ord Set - 2-Piece - A-Line - Cotton",
-    "price": 85.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250612.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XL",
         "available": true
-      }
-    ],
-    "colors": [
-      "Black"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250612",
-    "title": "[KA-250612] - Co-ord Set - 2-Piece - A-Line - Cotton",
-    "price": 85.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250612.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XXL",
         "available": true
@@ -1075,41 +415,11 @@
       {
         "size": "M",
         "available": true
-      }
-    ],
-    "colors": [
-      "White"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250613",
-    "title": "[KA-250613] - Co-ord Set - 2-Piece - Straight Cut - Khadi",
-    "price": 90.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250613.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "L",
         "available": false
-      }
-    ],
-    "colors": [
-      "White"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250613",
-    "title": "[KA-250613] - Co-ord Set - 2-Piece - Straight Cut - Khadi",
-    "price": 90.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250613.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XXL",
         "available": true
@@ -1132,60 +442,15 @@
       {
         "size": "M",
         "available": true
-      }
-    ],
-    "colors": [
-      "White"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250614",
-    "title": "[KA-250614] - Co-ord Set - 2-Piece - Straight Cut - Khadi",
-    "price": 75.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250614.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "L",
         "available": true
-      }
-    ],
-    "colors": [
-      "White"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250614",
-    "title": "[KA-250614] - Co-ord Set - 2-Piece - Straight Cut - Khadi",
-    "price": 75.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250614.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XL",
         "available": true
-      }
-    ],
-    "colors": [
-      "White"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250614",
-    "title": "[KA-250614] - Co-ord Set - 2-Piece - Straight Cut - Khadi",
-    "price": 75.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250614.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XXL",
         "available": true
@@ -1208,79 +473,19 @@
       {
         "size": "M",
         "available": true
-      }
-    ],
-    "colors": [
-      "Green"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250615",
-    "title": "[KA-250615] - Kurti - 3-Piece - Straight Cut - Cotton",
-    "price": 90.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250615.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "L",
         "available": true
-      }
-    ],
-    "colors": [
-      "Green"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250615",
-    "title": "[KA-250615] - Kurti - 3-Piece - Straight Cut - Cotton",
-    "price": 90.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250615.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XL",
         "available": false
-      }
-    ],
-    "colors": [
-      "Green"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250615",
-    "title": "[KA-250615] - Kurti - 3-Piece - Straight Cut - Cotton",
-    "price": 90.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250615.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XXL",
         "available": true
-      }
-    ],
-    "colors": [
-      "Green"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250615",
-    "title": "[KA-250615] - Kurti - 3-Piece - Straight Cut - Cotton",
-    "price": 90.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250615.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XXXL",
         "available": true
@@ -1303,79 +508,19 @@
       {
         "size": "M",
         "available": true
-      }
-    ],
-    "colors": [
-      "Maroon"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250616",
-    "title": "[KA-250616] - Kurti - 3-Piece - Straight Cut - Cotton",
-    "price": 95.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250616.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "L",
         "available": true
-      }
-    ],
-    "colors": [
-      "Maroon"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250616",
-    "title": "[KA-250616] - Kurti - 3-Piece - Straight Cut - Cotton",
-    "price": 95.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250616.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XL",
         "available": true
-      }
-    ],
-    "colors": [
-      "Maroon"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250616",
-    "title": "[KA-250616] - Kurti - 3-Piece - Straight Cut - Cotton",
-    "price": 95.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250616.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XXL",
         "available": false
-      }
-    ],
-    "colors": [
-      "Maroon"
-    ],
-    "category": NaN
-  },
-  {
-    "id": "KA-250616",
-    "title": "[KA-250616] - Kurti - 3-Piece - Straight Cut - Cotton",
-    "price": 95.0,
-    "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250616.HEIC",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
-    "sizes": [
+      },
       {
         "size": "XXXL",
         "available": false
