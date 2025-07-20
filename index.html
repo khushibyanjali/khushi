@@ -65,7 +65,7 @@
     <section id="products" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div class="flex justify-between items-center mb-8">
             <h2 class="text-2xl font-bold text-gray-900">Featured Collection</h2>
-            <a href="product.html" class="text-khushi-pink hover:text-khushi-pink/80 font-medium">
+            <a href="products.html" class="text-khushi-pink hover:text-khushi-pink/80 font-medium">
                 View All <i class="fas fa-arrow-right ml-1"></i>
             </a>
         </div>
@@ -109,7 +109,7 @@
             return {
                 ...product,
                 details: product.details === 'NaN' || product.details === null ? '' : product.details,
-                category: product.category === 'NaN' || product.category === null ? '' : product.category
+                category: product.category === 'NaN' || product.category === null ? 'Uncategorized' : product.category
             };
         }
 
@@ -123,7 +123,7 @@
                 let products = await response.text();
                 // Fix NaN values in JSON before parsing
                 products = products.replace(/"details":\s*NaN/g, '"details": ""')
-                                   .replace(/"category":\s*NaN/g, '"category": ""');
+                                   .replace(/"category":\s*NaN/g, '"category": "Uncategorized"');
                 products = JSON.parse(products);
                 
                 const container = document.getElementById('featured-products');
