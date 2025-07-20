@@ -61,12 +61,20 @@
         </div>
     </section>
 
-    <!-- Products Section -->
+    <!-- Featured Products Section -->
     <section id="products" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h2 class="text-2xl font-bold text-gray-900 mb-8">Our Collection</h2>
+        <div class="flex justify-between items-center mb-8">
+            <h2 class="text-2xl font-bold text-gray-900">Featured Collection</h2>
+            <a href="product.html" class="text-khushi-pink hover:text-khushi-pink/80 font-medium">
+                View All <i class="fas fa-arrow-right ml-1"></i>
+            </a>
+        </div>
         
-        <div id="products-container" class="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
-            <!-- Products will be loaded here by JavaScript -->
+        <div id="featured-products" class="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+            <div class="col-span-full text-center py-8">
+                <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-khushi-pink mx-auto"></div>
+                <p class="mt-4 text-gray-600">Loading featured products...</p>
+            </div>
         </div>
     </section>
 
@@ -96,27 +104,47 @@
     </footer>
 
     <script>
-        // Load products from GitHub JSON
-        async function loadProducts() {
+        // Function to clean JSON data
+        function cleanProductData(product) {
+            return {
+                ...product,
+                details: product.details === 'NaN' || product.details === null ? '' : product.details,
+                category: product.category === 'NaN' || product.category === null ? '' : product.category
+            };
+        }
+
+        // Load featured products (first 8)
+        async function loadFeaturedProducts() {
             try {
-                const response = await fetch('Inventory_GitHub.json');
-                if (!response.ok) throw new Error('Failed to fetch');
+                const response = await fetch('https://raw.githubusercontent.com/khushibyanjali/khushi/main/Inventory_GitHub.json?t=' + new Date().getTime());
                 
-                const products = await response.json();
-                const container = document.getElementById('products-container');
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
                 
-                // Sort by ID (assuming higher IDs are newer)
-                const sortedProducts = products.sort((a, b) => parseInt(b.id.split('-')[1]) - parseInt(a.id.split('-')[1]));
+                let products = await response.text();
+                // Fix NaN values in JSON before parsing
+                products = products.replace(/"details":\s*NaN/g, '"details": ""')
+                                   .replace(/"category":\s*NaN/g, '"category": ""');
+                products = JSON.parse(products);
                 
-                sortedProducts.forEach(product => {
+                const container = document.getElementById('featured-products');
+                
+                // Clear loading indicator
+                container.innerHTML = '';
+                
+                // Sort by ID (assuming higher IDs are newer) and take first 8
+                const featuredProducts = products.sort((a, b) => parseInt(b.id.split('-')[1]) - parseInt(a.id.split('-')[1])).slice(0, 8);
+                
+                featuredProducts.forEach(product => {
+                    product = cleanProductData(product);
                     const availableSizes = product.sizes.filter(s => s.available).map(s => s.size);
-                    const imageUrl = product.image.replace('.HEIC', '.JPG').replace('/blob/', '/raw/');
+                    // Convert GitHub blob URL to raw URL for images
+                    const imageUrl = product.image.replace('github.com', 'raw.githubusercontent.com').replace('/blob/', '/');
                     
                     container.innerHTML += `
                         <div class="group">
                             <a href="product.html?id=${product.id}">
                                 <div class="w-full aspect-portrait bg-gray-200 rounded-lg overflow-hidden">
-                                    <img src="${imageUrl}" alt="${product.title}" class="w-full h-full object-cover group-hover:opacity-75">
+                                    <img src="${imageUrl}" alt="${product.title}" class="w-full h-full object-cover group-hover:opacity-75" loading="lazy">
                                 </div>
                                 <h3 class="mt-4 text-sm text-gray-700">${product.title}</h3>
                                 <p class="mt-1 text-lg font-medium text-gray-900">${product.price} ${product.currency}</p>
@@ -131,17 +159,20 @@
                 });
             } catch (error) {
                 console.error('Error loading products:', error);
-                document.getElementById('products-container').innerHTML = `
+                document.getElementById('featured-products').innerHTML = `
                     <div class="col-span-full text-center py-8">
                         <p class="text-red-500">Error loading products. Please try again later.</p>
-                        <p class="text-sm text-gray-500 mt-2">Make sure Inventory_GitHub.json exists in the same directory</p>
+                        <p class="text-sm text-gray-500 mt-2">${error.message}</p>
+                        <button onclick="loadFeaturedProducts()" class="mt-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-khushi-pink hover:bg-khushi-pink/80">
+                            Retry
+                        </button>
                     </div>
                 `;
             }
         }
 
-        // Load products when page loads
-        document.addEventListener('DOMContentLoaded', loadProducts);
+        // Load featured products when page loads
+        document.addEventListener('DOMContentLoaded', loadFeaturedProducts);
     </script>
 </body>
 </html>
