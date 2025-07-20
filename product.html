@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - KHUSHI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        khushi: {
+                            pink: '#FF6B8B',
+                            dark: '#4A4A4A',
+                            light: '#FFF5F7'
+                        }
+                    },
+                    aspectRatio: {
+                        portrait: '3/4'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-khushi-light font-sans">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="text-xl font-bold text-khushi-pink">KHUSHI</a>
+                    <span class="ml-2 text-sm text-gray-500">By Anjali</span>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="https://www.tiktok.com/@khushi_by_anjali" target="_blank" class="text-gray-700 hover:text-khushi-pink">
+                        <i class="fab fa-tiktok text-xl"></i>
+                    </a>
+                    <a href="https://wa.me/971545470551" target="_blank" class="text-gray-700 hover:text-green-600">
+                        <i class="fab fa-whatsapp text-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Product Details -->
+    <main class="max-w-7xl mx-auto px-4 py-12">
+        <div id="product-container" class="lg:grid lg:grid-cols-2 lg:gap-8">
+            <!-- Product details will be loaded here -->
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-khushi-dark">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <div class="xl:grid xl:grid-cols-3 xl:gap-8">
+                <div class="space-y-8 xl:col-span-1">
+                    <span class="text-xl font-bold text-white">KHUSHI</span>
+                    <span class="ml-2 text-sm text-gray-300">By Anjali</span>
+                    <div class="flex space-x-6">
+                        <a href="https://www.tiktok.com/@khushi_by_anjali" target="_blank" class="text-gray-400 hover:text-khushi-pink">
+                            <i class="fab fa-tiktok text-xl"></i>
+                        </a>
+                        <a href="https://wa.me/971545470551" target="_blank" class="text-gray-400 hover:text-green-400">
+                            <i class="fab fa-whatsapp text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 border-t border-gray-700 pt-8">
+                <p class="text-base text-gray-400 text-center">
+                    &copy; 2023 KHUSHI By Anjali. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Get product ID from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const productId = urlParams.get('id');
+
+        // Load product details
+        async function loadProductDetails() {
+            if (!productId) {
+                document.getElementById('product-container').innerHTML = `
+                    <div class="col-span-full text-center py-8">
+                        <p class="text-red-500">Product not found</p>
+                        <a href="index.html" class="mt-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-khushi-pink hover:bg-khushi-pink/80">
+                            Back to Shop
+                        </a>
+                    </div>
+                `;
+                return;
+            }
+
+            try {
+                const response = await fetch('Inventory_GitHub.json');
+                if (!response.ok) throw new Error('Failed to fetch');
+                
+                const products = await response.json();
+                const product = products.find(p => p.id === productId);
+                
+                if (!product) throw new Error('Product not found');
+                
+                const container = document.getElementById('product-container');
+                const imageUrl = product.image.replace('.HEIC', '.JPG').replace('/blob/', '/raw/');
+                
+                container.innerHTML = `
+                    <div class="mb-8 lg:mb-0">
+                        <img src="${imageUrl}" alt="${product.title}" class="w-full rounded-lg aspect-portrait object-cover">
+                        ${product.video && !product.video.endsWith('/video/') ? `
+                        <div class="mt-4">
+                            <h3 class="text-sm font-medium text-gray-900">Watch Video</h3>
+                            <a href="${product.video}" target="_blank" class="text-khushi-pink hover:text-khushi-pink/80 flex items-center">
+                                <i class="fab fa-tiktok mr-2"></i> View on TikTok
+                            </a>
+                        </div>
+                        ` : ''}
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold text-gray-900">${product.title}</h1>
+                        <p class="text-xl text-gray-900 mt-2">${product.price} ${product.currency}</p>
+                        
+                        <div class="mt-6">
+                            <h3 class="text-sm font-medium text-gray-900">Details</h3>
+                            <p class="text-gray-600 mt-2">${product.details || 'No additional details provided'}</p>
+                        </div>
+                        
+                        <div class="mt-6">
+                            <h3 class="text-sm font-medium text-gray-900">Available Sizes</h3>
+                            <div class="flex flex-wrap mt-2 gap-2">
+                                ${product.sizes.map(size => `
+                                    <span class="px-3 py-1 rounded-full text-sm ${
+                                        size.available 
+                                            ? 'bg-green-100 text-green-800' 
+                                            : 'bg-gray-100 text-gray-800 line-through'
+                                    }">${size.size}</span>
+                                `).join('')}
+                            </div>
+                        </div>
+                        
+                        ${product.colors.length > 0 ? `
+                        <div class="mt-6">
+                            <h3 class="text-sm font-medium text-gray-900">Colors</h3>
+                            <div class="flex flex-wrap mt-2 gap-2">
+                                ${product.colors.map(color => `
+                                    <span class="px-3 py-1 rounded-full text-sm bg-gray-100 text-gray-800">${color}</span>
+                                `).join('')}
+                            </div>
+                        </div>
+                        ` : ''}
+                        
+                        <a href="https://wa.me/971545470551?text=Hi%20Anjali,%20I'm%20interested%20in%20${encodeURIComponent(product.title)}%20(${product.currency}%20${product.price})" 
+                           class="mt-6 w-full flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700">
+                           <i class="fab fa-whatsapp mr-2"></i> Order on WhatsApp
+                        </a>
+                    </div>
+                `;
+            } catch (error) {
+                console.error('Error loading product:', error);
+                document.getElementById('product-container').innerHTML = `
+                    <div class="col-span-full text-center py-8">
+                        <p class="text-red-500">Error loading product details. Please try again later.</p>
+                        <a href="index.html" class="mt-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-khushi-pink hover:bg-khushi-pink/80">
+                            Back to Shop
+                        </a>
+                    </div>
+                `;
+            }
+        }
+
+        // Load product when page loads
+        document.addEventListener('DOMContentLoaded', loadProductDetails);
+    </script>
+</body>
+</html>
