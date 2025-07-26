@@ -39,9 +39,13 @@
 
     <!-- Bottom Copyright -->
     <div class="mt-12 border-t border-gray-700 pt-8">
-      <p class="text-base text-gray-400 text-center">
-        &copy; 2025 KHUSHI. All rights reserved.
-      </p>
+<p class="text-base text-gray-400 text-center">
+  &copy; <span id="year"></span> KHUSHI. All rights reserved.
+</p>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
     </div>
   </div>
 </footer>
