@@ -29,7 +29,7 @@
       "Black"
     ],
     "category": "Uncategorized",
-    "featured": "No",
+    "featured": false,
     "status": "active"
   },
   {
@@ -66,7 +66,7 @@
       "White"
     ],
     "category": "Uncategorized",
-    "featured": "No",
+    "featured": false,
     "status": "active"
   },
   {
@@ -103,7 +103,7 @@
       "Blue"
     ],
     "category": "Uncategorized",
-    "featured": "No",
+    "featured": false,
     "status": "active"
   },
   {
@@ -136,7 +136,7 @@
       "Red"
     ],
     "category": "Uncategorized",
-    "featured": "No",
+    "featured": false,
     "status": "active"
   },
   {
@@ -173,7 +173,7 @@
       "Black"
     ],
     "category": "Uncategorized",
-    "featured": "No",
+    "featured": false,
     "status": "active"
   },
   {
@@ -210,7 +210,7 @@
       "Green"
     ],
     "category": "Uncategorized",
-    "featured": "No",
+    "featured": false,
     "status": "active"
   },
   {
@@ -247,7 +247,7 @@
       "White"
     ],
     "category": "Uncategorized",
-    "featured": "No",
+    "featured": false,
     "status": "active"
   },
   {
@@ -284,7 +284,7 @@
       "Purple"
     ],
     "category": "Uncategorized",
-    "featured": "No",
+    "featured": false,
     "status": "active"
   },
   {
@@ -317,7 +317,7 @@
       "White"
     ],
     "category": "Uncategorized",
-    "featured": "No",
+    "featured": false,
     "status": "active"
   },
   {
@@ -354,7 +354,7 @@
       "White"
     ],
     "category": "Uncategorized",
-    "featured": "No",
+    "featured": false,
     "status": "active"
   },
   {
@@ -387,7 +387,7 @@
       "Yellow"
     ],
     "category": "Uncategorized",
-    "featured": "No",
+    "featured": false,
     "status": "active"
   },
   {
@@ -424,7 +424,7 @@
       "Black"
     ],
     "category": "Uncategorized",
-    "featured": "No",
+    "featured": false,
     "status": "active"
   },
   {
@@ -453,7 +453,7 @@
       "White"
     ],
     "category": "Uncategorized",
-    "featured": "No",
+    "featured": false,
     "status": "active"
   },
   {
@@ -486,7 +486,7 @@
       "White"
     ],
     "category": "Uncategorized",
-    "featured": "No",
+    "featured": false,
     "status": "active"
   },
   {
@@ -523,7 +523,7 @@
       "Green"
     ],
     "category": "Uncategorized",
-    "featured": "No",
+    "featured": false,
     "status": "active"
   },
   {
@@ -560,7 +560,7 @@
       "Maroon"
     ],
     "category": "Uncategorized",
-    "featured": "No",
+    "featured": false,
     "status": "active"
   }
 ]
