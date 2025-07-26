@@ -6,7 +6,7 @@
     "currency": "AED",
     "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250601.jpg",
     "video": "https://www.tiktok.com/@khushi_by_anjali/video/7526170336400900000",
-    "details": NaN,
+    "details": "",
     "sizes": [
       {
         "size": "M",
@@ -28,7 +28,9 @@
     "colors": [
       "Black"
     ],
-    "category": NaN
+    "category": "Uncategorized",
+    "featured": "No",
+    "status": "active"
   },
   {
     "id": "KA-250602",
@@ -36,8 +38,8 @@
     "price": 95.0,
     "currency": "AED",
     "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250602.jpg",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
+    "video": "https://www.tiktok.com/@khushi_by_anjali/video/nan",
+    "details": "",
     "sizes": [
       {
         "size": "S",
@@ -63,7 +65,9 @@
     "colors": [
       "White"
     ],
-    "category": NaN
+    "category": "Uncategorized",
+    "featured": "No",
+    "status": "active"
   },
   {
     "id": "KA-250603",
@@ -71,8 +75,8 @@
     "price": 95.0,
     "currency": "AED",
     "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250603.jpg",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
+    "video": "https://www.tiktok.com/@khushi_by_anjali/video/nan",
+    "details": "",
     "sizes": [
       {
         "size": "M",
@@ -98,7 +102,9 @@
     "colors": [
       "Blue"
     ],
-    "category": NaN
+    "category": "Uncategorized",
+    "featured": "No",
+    "status": "active"
   },
   {
     "id": "KA-250604",
@@ -106,8 +112,8 @@
     "price": 90.0,
     "currency": "AED",
     "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250604.jpg",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
+    "video": "https://www.tiktok.com/@khushi_by_anjali/video/nan",
+    "details": "",
     "sizes": [
       {
         "size": "M",
@@ -129,7 +135,9 @@
     "colors": [
       "Red"
     ],
-    "category": NaN
+    "category": "Uncategorized",
+    "featured": "No",
+    "status": "active"
   },
   {
     "id": "KA-250605",
@@ -137,8 +145,8 @@
     "price": 95.0,
     "currency": "AED",
     "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250605.jpg",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
+    "video": "https://www.tiktok.com/@khushi_by_anjali/video/nan",
+    "details": "",
     "sizes": [
       {
         "size": "S",
@@ -164,7 +172,9 @@
     "colors": [
       "Black"
     ],
-    "category": NaN
+    "category": "Uncategorized",
+    "featured": "No",
+    "status": "active"
   },
   {
     "id": "KA-250606",
@@ -172,8 +182,8 @@
     "price": 85.0,
     "currency": "AED",
     "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250606.jpg",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
+    "video": "https://www.tiktok.com/@khushi_by_anjali/video/nan",
+    "details": "",
     "sizes": [
       {
         "size": "M",
@@ -199,7 +209,9 @@
     "colors": [
       "Green"
     ],
-    "category": NaN
+    "category": "Uncategorized",
+    "featured": "No",
+    "status": "active"
   },
   {
     "id": "KA-250607",
@@ -207,8 +219,8 @@
     "price": 90.0,
     "currency": "AED",
     "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250607.jpg",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
+    "video": "https://www.tiktok.com/@khushi_by_anjali/video/nan",
+    "details": "",
     "sizes": [
       {
         "size": "S",
@@ -234,7 +246,9 @@
     "colors": [
       "White"
     ],
-    "category": NaN
+    "category": "Uncategorized",
+    "featured": "No",
+    "status": "active"
   },
   {
     "id": "KA-250608",
@@ -242,8 +256,8 @@
     "price": 90.0,
     "currency": "AED",
     "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250608.jpg",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
+    "video": "https://www.tiktok.com/@khushi_by_anjali/video/nan",
+    "details": "",
     "sizes": [
       {
         "size": "M",
@@ -269,7 +283,9 @@
     "colors": [
       "Purple"
     ],
-    "category": NaN
+    "category": "Uncategorized",
+    "featured": "No",
+    "status": "active"
   },
   {
     "id": "KA-250609",
@@ -277,8 +293,8 @@
     "price": 95.0,
     "currency": "AED",
     "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250609.jpg",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
+    "video": "https://www.tiktok.com/@khushi_by_anjali/video/nan",
+    "details": "",
     "sizes": [
       {
         "size": "M",
@@ -300,7 +316,9 @@
     "colors": [
       "White"
     ],
-    "category": NaN
+    "category": "Uncategorized",
+    "featured": "No",
+    "status": "active"
   },
   {
     "id": "KA-250610",
@@ -308,8 +326,8 @@
     "price": 90.0,
     "currency": "AED",
     "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250610.jpg",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
+    "video": "https://www.tiktok.com/@khushi_by_anjali/video/nan",
+    "details": "",
     "sizes": [
       {
         "size": "M",
@@ -335,7 +353,9 @@
     "colors": [
       "White"
     ],
-    "category": NaN
+    "category": "Uncategorized",
+    "featured": "No",
+    "status": "active"
   },
   {
     "id": "KA-250611",
@@ -343,8 +363,8 @@
     "price": 85.0,
     "currency": "AED",
     "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250611.jpg",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
+    "video": "https://www.tiktok.com/@khushi_by_anjali/video/nan",
+    "details": "",
     "sizes": [
       {
         "size": "M",
@@ -366,7 +386,9 @@
     "colors": [
       "Yellow"
     ],
-    "category": NaN
+    "category": "Uncategorized",
+    "featured": "No",
+    "status": "active"
   },
   {
     "id": "KA-250612",
@@ -374,8 +396,8 @@
     "price": 85.0,
     "currency": "AED",
     "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250612.jpg",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
+    "video": "https://www.tiktok.com/@khushi_by_anjali/video/nan",
+    "details": "",
     "sizes": [
       {
         "size": "S",
@@ -401,7 +423,9 @@
     "colors": [
       "Black"
     ],
-    "category": NaN
+    "category": "Uncategorized",
+    "featured": "No",
+    "status": "active"
   },
   {
     "id": "KA-250613",
@@ -409,8 +433,8 @@
     "price": 90.0,
     "currency": "AED",
     "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250613.jpg",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
+    "video": "https://www.tiktok.com/@khushi_by_anjali/video/nan",
+    "details": "",
     "sizes": [
       {
         "size": "M",
@@ -428,7 +452,9 @@
     "colors": [
       "White"
     ],
-    "category": NaN
+    "category": "Uncategorized",
+    "featured": "No",
+    "status": "active"
   },
   {
     "id": "KA-250614",
@@ -436,8 +462,8 @@
     "price": 75.0,
     "currency": "AED",
     "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250614.jpg",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
+    "video": "https://www.tiktok.com/@khushi_by_anjali/video/nan",
+    "details": "",
     "sizes": [
       {
         "size": "M",
@@ -459,7 +485,9 @@
     "colors": [
       "White"
     ],
-    "category": NaN
+    "category": "Uncategorized",
+    "featured": "No",
+    "status": "active"
   },
   {
     "id": "KA-250615",
@@ -467,8 +495,8 @@
     "price": 90.0,
     "currency": "AED",
     "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250615.jpg",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
+    "video": "https://www.tiktok.com/@khushi_by_anjali/video/nan",
+    "details": "",
     "sizes": [
       {
         "size": "M",
@@ -494,7 +522,9 @@
     "colors": [
       "Green"
     ],
-    "category": NaN
+    "category": "Uncategorized",
+    "featured": "No",
+    "status": "active"
   },
   {
     "id": "KA-250616",
@@ -502,8 +532,8 @@
     "price": 95.0,
     "currency": "AED",
     "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250616.jpg",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/",
-    "details": NaN,
+    "video": "https://www.tiktok.com/@khushi_by_anjali/video/nan",
+    "details": "",
     "sizes": [
       {
         "size": "M",
@@ -529,6 +559,8 @@
     "colors": [
       "Maroon"
     ],
-    "category": NaN
+    "category": "Uncategorized",
+    "featured": "No",
+    "status": "active"
   }
 ]
