@@ -26,25 +26,8 @@
     </script>
 </head>
 <body class="bg-khushi-light font-sans">
-    <!-- Navigation -->
-    <nav class="bg-white shadow-sm sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-16">
-                <div class="flex items-center">
-                    <span class="text-xl font-bold text-khushi-pink">KHUSHI</span>
-                    <span class="ml-2 text-sm text-gray-500">By Anjali</span>
-                </div>
-                <div class="flex items-center space-x-4">
-                    <a href="https://www.tiktok.com/@khushi_by_anjali" target="_blank" class="text-gray-700 hover:text-khushi-pink">
-                        <i class="fab fa-tiktok text-xl"></i>
-                    </a>
-                    <a href="https://wa.me/971545470551" target="_blank" class="text-gray-700 hover:text-green-600">
-                        <i class="fab fa-whatsapp text-xl"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </nav>
+    <!-- Header Include -->
+    <div id="header"></div>
 
     <!-- Hero Section -->
     <section class="relative bg-gradient-to-r from-khushi-pink/10 to-purple-50">
@@ -61,7 +44,7 @@
         </div>
     </section>
 
-    <!-- Featured Products Section -->
+    <!-- Featured Products Slider -->
     <section id="products" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div class="flex justify-between items-center mb-8">
             <h2 class="text-2xl font-bold text-gray-900">Featured Collection</h2>
@@ -69,109 +52,68 @@
                 View All <i class="fas fa-arrow-right ml-1"></i>
             </a>
         </div>
-        
-        <div id="featured-products" class="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
-            <div class="col-span-full text-center py-8">
-                <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-khushi-pink mx-auto"></div>
-                <p class="mt-4 text-gray-600">Loading featured products...</p>
-            </div>
+
+        <div id="featured-slider" class="flex overflow-x-auto gap-6 pb-4 snap-x">
+            <!-- Featured products will be inserted here -->
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="bg-khushi-dark">
-        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-            <div class="xl:grid xl:grid-cols-3 xl:gap-8">
-                <div class="space-y-8 xl:col-span-1">
-                    <span class="text-xl font-bold text-white">KHUSHI</span>
-                    <span class="ml-2 text-sm text-gray-300">By Anjali</span>
-                    <div class="flex space-x-6">
-                        <a href="https://www.tiktok.com/@khushi_by_anjali" target="_blank" class="text-gray-400 hover:text-khushi-pink">
-                            <i class="fab fa-tiktok text-xl"></i>
-                        </a>
-                        <a href="https://wa.me/971545470551" target="_blank" class="text-gray-400 hover:text-green-400">
-                            <i class="fab fa-whatsapp text-xl"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="mt-12 border-t border-gray-700 pt-8">
-                <p class="text-base text-gray-400 text-center">
-                    &copy; 2023 KHUSHI By Anjali. All rights reserved.
-                </p>
-            </div>
-        </div>
-    </footer>
+    <!-- Footer Include -->
+    <div id="footer"></div>
 
     <script>
-        // Function to clean JSON data
+        // Load header and footer
+        fetch('header.html').then(res => res.text()).then(data => document.getElementById('header').innerHTML = data);
+        fetch('footer.html').then(res => res.text()).then(data => document.getElementById('footer').innerHTML = data);
+
         function cleanProductData(product) {
             return {
                 ...product,
-                details: product.details === 'NaN' || product.details === null ? '' : product.details,
-                category: product.category === 'NaN' || product.category === null ? 'Uncategorized' : product.category
+                details: product.details || '',
+                category: product.category || 'Uncategorized'
             };
         }
 
-        // Load featured products (first 8)
         async function loadFeaturedProducts() {
             try {
-                const response = await fetch('https://raw.githubusercontent.com/khushibyanjali/khushi/main/Inventory_GitHub.json?t=' + new Date().getTime());
-                
-                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-                
-                let products = await response.text();
-                // Fix NaN values in JSON before parsing
+                const res = await fetch('https://raw.githubusercontent.com/khushibyanjali/khushi/main/Inventory_GitHub.json?t=' + new Date().getTime());
+                let products = await res.text();
                 products = products.replace(/"details":\s*NaN/g, '"details": ""')
                                    .replace(/"category":\s*NaN/g, '"category": "Uncategorized"');
                 products = JSON.parse(products);
-                
-                const container = document.getElementById('featured-products');
-                
-                // Clear loading indicator
+
+                const container = document.getElementById('featured-slider');
                 container.innerHTML = '';
-                
-                // Sort by ID (assuming higher IDs are newer) and take first 8
-                const featuredProducts = products.sort((a, b) => parseInt(b.id.split('-')[1]) - parseInt(a.id.split('-')[1])).slice(0, 8);
-                
+
+                const featuredProducts = products
+                    .filter(p => p.featured === 'Yes')
+                    .map(cleanProductData)
+                    .sort((a, b) => parseInt(b.id.split('-')[1]) - parseInt(a.id.split('-')[1]))
+                    .slice(0, 6);
+
                 featuredProducts.forEach(product => {
-                    product = cleanProductData(product);
-                    const availableSizes = product.sizes.filter(s => s.available).map(s => s.size);
-                    // Convert GitHub blob URL to raw URL for images
                     const imageUrl = product.image.replace('github.com', 'raw.githubusercontent.com').replace('/blob/', '/');
-                    
                     container.innerHTML += `
-                        <div class="group">
-                            <a href="product.html?id=${product.id}">
-                                <div class="w-full aspect-portrait bg-gray-200 rounded-lg overflow-hidden">
-                                    <img src="${imageUrl}" alt="${product.title}" class="w-full h-full object-cover group-hover:opacity-75" loading="lazy">
+                        <div class="min-w-[250px] snap-start">
+                            <a href="product.html?id=${product.id}" class="block">
+                                <div class="aspect-portrait bg-gray-200 rounded-lg overflow-hidden">
+                                    <img src="${imageUrl}" alt="${product.title}" class="w-full h-full object-cover" loading="lazy">
                                 </div>
                                 <h3 class="mt-4 text-sm text-gray-700">${product.title}</h3>
-                                <p class="mt-1 text-lg font-medium text-gray-900">${product.price} ${product.currency}</p>
-                                <p class="text-xs text-gray-500">Available sizes: ${availableSizes.join(', ')}</p>
+                                <p class="text-xs text-gray-500">Message us on WhatsApp for price</p>
                             </a>
-                            <a href="https://wa.me/971545470551?text=Hi%20Anjali,%20I'm%20interested%20in%20${encodeURIComponent(product.title)}%20(${product.currency}%20${product.price})" 
+                            <a href="https://wa.me/971545470551?text=Hi%20Anjali,%20I'm%20interested%20in%20${encodeURIComponent(product.title)}" 
                                class="mt-2 w-full flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-green-600 hover:bg-green-700">
                                <i class="fab fa-whatsapp mr-2"></i> Order on WhatsApp
                             </a>
                         </div>
                     `;
                 });
-            } catch (error) {
-                console.error('Error loading products:', error);
-                document.getElementById('featured-products').innerHTML = `
-                    <div class="col-span-full text-center py-8">
-                        <p class="text-red-500">Error loading products. Please try again later.</p>
-                        <p class="text-sm text-gray-500 mt-2">${error.message}</p>
-                        <button onclick="loadFeaturedProducts()" class="mt-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-khushi-pink hover:bg-khushi-pink/80">
-                            Retry
-                        </button>
-                    </div>
-                `;
+            } catch (err) {
+                console.error('Failed to load featured products', err);
             }
         }
 
-        // Load featured products when page loads
         document.addEventListener('DOMContentLoaded', loadFeaturedProducts);
     </script>
 </body>
