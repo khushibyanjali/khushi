@@ -5,7 +5,7 @@
     "price": 100.0,
     "currency": "AED",
     "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250601.jpg",
-    "video": "https://www.tiktok.com/@khushi_by_anjali/video/7526170336400900000",
+    "video": "https://www.instagram.com/reel/DKxVNa5Sx3N/?igsh=MWV0OXhpejc4czI0ag==",
     "details": "",
     "sizes": [
       {
@@ -162,7 +162,7 @@
       },
       {
         "size": "XL",
-        "available": true
+        "available": false
       },
       {
         "size": "XXL",
@@ -339,7 +339,7 @@
       },
       {
         "size": "XL",
-        "available": true
+        "available": false
       },
       {
         "size": "XXL",
