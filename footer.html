@@ -1,54 +1,49 @@
 <!-- footer.html -->
 <footer class="bg-khushi-dark">
   <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
       
       <!-- Left Section -->
-      <div>
+      <div class="text-center md:text-left">
         <h3 class="text-white text-lg font-semibold mb-4">Explore</h3>
         <ul class="space-y-2">
-          <li>
-            <a href="products.html" class="text-gray-400 hover:text-white">Collection</a>
-          </li>
-          <li>
-            <a href="upcoming.html" class="text-gray-400 hover:text-white">Upcoming</a>
-          </li>
+          <li><a href="products.html" class="text-gray-400 hover:text-white">Collection</a></li>
+          <li><a href="upcoming.html" class="text-gray-400 hover:text-white">Upcoming</a></li>
         </ul>
 
         <!-- Social Media Icons -->
-        <div class="flex space-x-6 mt-6">
-          <a href="https://www.instagram.com/khushi_by_anjali" target="_blank" class="text-gray-400 hover:text-pink-400">
+        <div class="flex justify-center md:justify-start space-x-6 mt-6">
+          <a href="https://www.instagram.com/khushi_by_anjali" target="_blank" class="text-gray-400 hover:text-pink-400" aria-label="Instagram">
             <i class="fab fa-instagram text-xl"></i>
           </a>
-          <a href="https://www.tiktok.com/@khushi_by_anjali" target="_blank" class="text-gray-400 hover:text-khushi-pink">
+          <a href="https://www.tiktok.com/@khushi_by_anjali" target="_blank" class="text-gray-400 hover:text-khushi-pink" aria-label="TikTok">
             <i class="fab fa-tiktok text-xl"></i>
           </a>
-          <a href="https://www.youtube.com/@khushibyanjali" target="_blank" class="text-gray-400 hover:text-khushi-pink">
+          <a href="https://www.youtube.com/@khushibyanjali" target="_blank" class="text-gray-400 hover:text-khushi-pink" aria-label="YouTube">
             <i class="fab fa-youtube text-xl"></i>
           </a>
-          <a href="https://wa.me/971545470551" target="_blank" class="text-gray-400 hover:text-green-400">
+          <a href="https://wa.me/971545470551" target="_blank" class="text-gray-400 hover:text-green-400" aria-label="WhatsApp">
             <i class="fab fa-whatsapp text-xl"></i>
           </a>
         </div>
       </div>
 
       <!-- Right Section -->
-      <div class="flex justify-center md:justify-end items-center">
+      <div class="flex justify-center md:justify-end">
         <img src="https://github.com/khushibyanjali/khushi/blob/main/assets/Logo_Text.png?raw=true"
-             alt="KHUSHI Logo"
-             class="h-20 sm:h-24 md:h-28 lg:h-32">
+             alt="KHUSHI logo text"
+             class="h-24 sm:h-28 md:h-32 lg:h-36">
       </div>
     </div>
 
-    <!-- Bottom Copyright -->
+    <!-- Bottom -->
     <div class="mt-12 border-t border-gray-700 pt-8">
-<p class="text-base text-gray-400 text-center">
-  &copy; <span id="year"></span> KHUSHI. All rights reserved.
-</p>
-<script>
-  document.getElementById("year").textContent = new Date().getFullYear();
-</script>
-
+      <p class="text-base text-gray-400 text-center">
+        &copy; <span id="year"></span> KHUSHI. All rights reserved.
+      </p>
+      <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+      </script>
     </div>
   </div>
 </footer>
