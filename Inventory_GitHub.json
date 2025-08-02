@@ -564,11 +564,11 @@
     "status": "active"
   },
   {
-    "id": "KA250801",
-    "title": "[KA250801] - Mul Cotton Saree - Mayuri (Aqua Blue)",
+    "id": "KA-250801",
+    "title": "[KA-250801] - Mul Cotton Saree - Mayuri (Aqua Blue)",
     "price": 85.0,
     "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA250801.jpg",
+    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250801.jpg",
     "video": "",
     "details": "",
     "sizes": [],
@@ -580,11 +580,11 @@
     "status": "active"
   },
   {
-    "id": "KA250802",
-    "title": "[KA250802] - Mul Cotton Saree - Agni (White & Red)",
+    "id": "KA-250802",
+    "title": "[KA-250802] - Mul Cotton Saree - Agni (White & Red)",
     "price": 85.0,
     "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA250802.jpg",
+    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250802.jpg",
     "video": "",
     "details": "",
     "sizes": [],
@@ -596,11 +596,11 @@
     "status": "active"
   },
   {
-    "id": "KA250803",
-    "title": "[KA250803] - Mul Cotton Saree - Triveni (Off-White)",
+    "id": "KA-250803",
+    "title": "[KA-250803] - Mul Cotton Saree - Triveni (Off-White)",
     "price": 85.0,
     "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA250803.jpg",
+    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250803.jpg",
     "video": "",
     "details": "",
     "sizes": [],
@@ -612,11 +612,11 @@
     "status": "active"
   },
   {
-    "id": "KA250804",
-    "title": "[KA250804] - Mul Cotton Saree - Kasturi (White & Yellow) - with Blouse",
+    "id": "KA-250804",
+    "title": "[KA-250804] - Mul Cotton Saree - Kasturi (White & Yellow) - with Blouse",
     "price": 90.0,
     "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA250804.jpg",
+    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250804.jpg",
     "video": "",
     "details": "",
     "sizes": [],
@@ -628,11 +628,11 @@
     "status": "active"
   },
   {
-    "id": "KA250805",
-    "title": "[KA250805] - Mul Cotton Saree - Kanakambaram (Cream & Red)",
+    "id": "KA-250805",
+    "title": "[KA-250805] - Mul Cotton Saree - Kanakambaram (Cream & Red)",
     "price": 85.0,
     "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA250805.jpg",
+    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250805.jpg",
     "video": "",
     "details": "",
     "sizes": [],
@@ -644,11 +644,11 @@
     "status": "active"
   },
   {
-    "id": "KA250806",
-    "title": "[KA250806] - Mul Cotton Saree - Neelambari (White & Violet)",
+    "id": "KA-250806",
+    "title": "[KA-250806] - Mul Cotton Saree - Neelambari (White & Violet)",
     "price": 85.0,
     "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA250806.jpg",
+    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250806.jpg",
     "video": "",
     "details": "",
     "sizes": [],
@@ -660,11 +660,11 @@
     "status": "active"
   },
   {
-    "id": "KA250807",
-    "title": "[KA250807] - Mul Cotton Saree - Neelathamara (White & Blue)",
+    "id": "KA-250807",
+    "title": "[KA-250807] - Mul Cotton Saree - Neelathamara (White & Blue)",
     "price": 85.0,
     "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA250807.jpg",
+    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250807.jpg",
     "video": "",
     "details": "",
     "sizes": [],
@@ -676,11 +676,11 @@
     "status": "active"
   },
   {
-    "id": "KA250808",
-    "title": "[KA250808] - Mul Cotton Saree - Padma (White & Pink)",
+    "id": "KA-250808",
+    "title": "[KA-250808] - Mul Cotton Saree - Padma (White & Pink)",
     "price": 85.0,
     "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA250808.jpg",
+    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250808.jpg",
     "video": "",
     "details": "",
     "sizes": [],
@@ -692,11 +692,11 @@
     "status": "active"
   },
   {
-    "id": "KA250809",
-    "title": "[KA250809] - Mul Cotton Saree - Kasavu (White & Gold)",
+    "id": "KA-250809",
+    "title": "[KA-250809] - Mul Cotton Saree - Kasavu (White & Gold)",
     "price": 85.0,
     "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA250809.jpg",
+    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250809.jpg",
     "video": "",
     "details": "",
     "sizes": [],
@@ -708,11 +708,11 @@
     "status": "active"
   },
   {
-    "id": "KA250810",
-    "title": "[KA250810] - Mul Cotton Saree - Mandaram (White & Red Stripes)",
+    "id": "KA-250810",
+    "title": "[KA-250810] - Mul Cotton Saree - Mandaram (White & Red Stripes)",
     "price": 90.0,
     "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA250810.jpg",
+    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250810.jpg",
     "video": "",
     "details": "",
     "sizes": [],
@@ -724,11 +724,11 @@
     "status": "active"
   },
   {
-    "id": "KA250811",
-    "title": "[KA250811] - Mul Cotton Saree - Rithu (Yellow & Pink)",
+    "id": "KA-250811",
+    "title": "[KA-250811] - Mul Cotton Saree - Rithu (Yellow & Pink)",
     "price": 85.0,
     "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA250811.jpg",
+    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250811.jpg",
     "video": "",
     "details": "",
     "sizes": [],
@@ -740,11 +740,11 @@
     "status": "active"
   },
   {
-    "id": "KA250812",
-    "title": "[KA250812] - Mul Cotton Saree -  Swarna (Off-White & Gold-Red)",
+    "id": "KA-250812",
+    "title": "[KA-250812] - Mul Cotton Saree -  Swarna (Off-White & Gold-Red)",
     "price": 85.0,
     "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA250812.jpg",
+    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250812.jpg",
     "video": "",
     "details": "",
     "sizes": [],
@@ -756,11 +756,11 @@
     "status": "active"
   },
   {
-    "id": "KA250813",
-    "title": "[KA250813] - Mul Cotton Saree - Kumkuma (Red)",
+    "id": "KA-250813",
+    "title": "[KA-250813] - Mul Cotton Saree - Kumkuma (Red)",
     "price": 85.0,
     "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA250813.jpg",
+    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250813.jpg",
     "video": "",
     "details": "",
     "sizes": [],
@@ -772,11 +772,11 @@
     "status": "active"
   },
   {
-    "id": "KA250814",
-    "title": "[KA250814] - Ikkat Saree - Harini (Green - Fish Design)",
+    "id": "KA-250814",
+    "title": "[KA-250814] - Ikkat Saree - Harini (Green - Fish Design)",
     "price": 110.0,
     "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA250814.jpg",
+    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250814.jpg",
     "video": "",
     "details": "",
     "sizes": [],
@@ -788,11 +788,11 @@
     "status": "active"
   },
   {
-    "id": "KA250815",
-    "title": "[KA250815] - Ikkat Saree - Harini (Green - Cotton Seed Design)",
+    "id": "KA-250815",
+    "title": "[KA-250815] - Ikkat Saree - Harini (Green - Cotton Seed Design)",
     "price": 110.0,
     "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA250815.jpg",
+    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250815.jpg",
     "video": "",
     "details": "",
     "sizes": [],
@@ -804,11 +804,11 @@
     "status": "active"
   },
   {
-    "id": "KA250816",
-    "title": "[KA250816] - Ikkat Saree - Kesar (Green - Fish Design)",
+    "id": "KA-250816",
+    "title": "[KA-250816] - Ikkat Saree - Kesar (Green - Fish Design)",
     "price": 110.0,
     "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA250816.jpg",
+    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250816.jpg",
     "video": "",
     "details": "",
     "sizes": [],
@@ -820,11 +820,11 @@
     "status": "active"
   },
   {
-    "id": "KA250817",
-    "title": "[KA250817] - Ikkat Saree - Varnam (Voilet - Cotton Seed Design)",
+    "id": "KA-250817",
+    "title": "[KA-250817] - Ikkat Saree - Varnam (Voilet - Cotton Seed Design)",
     "price": 110.0,
     "currency": "AED",
-    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA250817.jpg",
+    "image": "https://github.com/khushibyanjali/khushi/blob/main/Products/KA-250817.jpg",
     "video": "",
     "details": "",
     "sizes": [],
